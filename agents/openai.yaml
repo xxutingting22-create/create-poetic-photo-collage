@@ -1,0 +1,13 @@
+interface:
+  display_name: 诗意胶片拼贴
+  short_description: 将1至5张照片全部用于六种随机16:9诗意胶片排版
+  default_prompt: 使用 $create-poetic-photo-collage 将我上传的全部照片用于一张16:9诗意胶片拼贴图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
